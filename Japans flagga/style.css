@@ -1,0 +1,17 @@
+.flag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 35rem;
+  height: 20rem;
+  background-color: rgb(245, 241, 241);
+}
+
+.ring {
+  border-radius: 9rem;
+  order: 6;
+  background-color: red;
+  width: 9rem;
+  height: 9rem;
+  align-self: center;
+}

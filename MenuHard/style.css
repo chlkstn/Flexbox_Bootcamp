@@ -1,0 +1,29 @@
+.Menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(228, 228, 228);
+  max-width: 1000px;
+  height: 2rem;
+}
+
+img {
+  width: 4rem;
+  margin: auto auto auto 1rem;
+}
+
+a {
+  color: rgb(184, 184, 180);
+  margin-right: 2rem;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+button {
+  color: rgb(199, 196, 196);
+  border: solid rgb(214, 214, 214) 1px;
+  margin-left: auto;
+  margin-right: 1rem;
+  background-color: rgba(0, 255, 255, 0);
+}

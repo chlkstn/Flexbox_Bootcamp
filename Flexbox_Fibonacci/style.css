@@ -1,0 +1,68 @@
+body {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  height: 5rem;
+  margin-bottom: 3rem;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  height: 5rem;
+}
+
+.item0 {
+  background-color: rgb(117, 89, 4);
+  flex-grow: 0;
+}
+
+.item1 {
+  background-color: rgba(132, 100, 5, 1);
+  flex-grow: 1;
+}
+.item11 {
+  background-color: rgb(122, 105, 5);
+  flex-grow: 1;
+}
+
+.item2 {
+  background-color: rgba(117, 117, 6, 1);
+  flex-grow: 2;
+}
+
+.item3 {
+  background-color: rgba(78, 132, 12, 1);
+  flex-grow: 3;
+}
+
+.item5 {
+  background-color: rgb(101, 136, 7, 1);
+  flex-grow: 5;
+}
+
+.item8 {
+  background-color: rgb(88, 152, 8, 1);
+  flex-grow: 8;
+}
+
+.item13 {
+  background-color: rgb(63, 181, 10, 1);
+  flex-grow: 13;
+}
+
+.item21 {
+  background-color: rgb(48, 198, 11, 1);
+  flex-grow: 21;
+}
+
+.item34 {
+  background-color: rgb(29, 220, 13, 1);
+
+  flex-grow: 34;
+}

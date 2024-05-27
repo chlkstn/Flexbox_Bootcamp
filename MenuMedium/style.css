@@ -1,0 +1,25 @@
+.Menu {
+  display: flex;
+
+  flex-direction: row;
+  background-color: rgb(221, 221, 221);
+  height: 2rem;
+  max-width: 900px;
+  justify-content: flex-end;
+}
+
+.mButton {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(143, 145, 143);
+  text-align: center;
+  margin: auto auto auto 1rem;
+  width: 8rem;
+}
+
+.logo {
+  width: 4rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+
+  margin-right: 19rem;
+}
