@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(202, 202, 202);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 200px;
+  height: 340px;
+  margin: 4rem auto auto auto;
+  background-color: whitesmoke;
+  box-shadow: 0 0 1rem rgb(182, 181, 181);
+}
+
+.shoe {
+  background-color: rgb(255, 196, 0);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.card img {
+  width: 160px;
+  margin-left: 1rem;
+}
+
+.description {
+  box-sizing: border-box;
+  background-color: rgb(250, 250, 250);
+  padding: 1rem;
+  font-size: 0.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  align-self: center;
+  max-width: 200px;
+}
+
+.description h1 {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.description h2 {
+  font-size: 0.7rem;
+  margin-top: -0.9rem;
+}
+
+.description h3 {
+  font-size: 1rem;
+  margin: 4rem 0rem 0rem 7rem;
+}

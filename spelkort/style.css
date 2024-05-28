@@ -1,0 +1,38 @@
+body {
+  background-color: grey;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 235, 235);
+  width: 200px;
+  height: 300px;
+  border: solid white;
+  border-radius: 0.5rem;
+  margin: 10rem auto auto auto;
+}
+
+.hearth {
+  color: red;
+  font-size: 1.3rem;
+  margin-left: 0.5rem;
+}
+
+.hearth p {
+  color: grey;
+  margin: auto;
+}
+
+.bighearth {
+  color: red;
+  font-size: 3rem;
+  align-self: center;
+  margin-top: 4.5rem;
+}
+
+.card :nth-child(3) {
+  margin-right: 0.5rem;
+  margin-top: auto;
+  transform: rotate(180deg);
+}
